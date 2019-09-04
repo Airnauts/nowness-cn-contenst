@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html data-wf-page="5d668ab4f0c4154cb23fd1b8" data-wf-site="5d667efd1b07767261b1af5a">
+
+<head>
+    <meta charset="utf-8">
+    <title>Apply</title>
+    <meta content="Apply" property="og:title">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/webflow.css" rel="stylesheet" type="text/css">
+    <link href="css/nowness-event.webflow.css" rel="stylesheet" type="text/css">
+    <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+    <script type="text/javascript">
+        ! function(o, c) {
+            var n = c.documentElement,
+                t = " w-mod-";
+            n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+        }(window, document);
+    </script>
+    <link href="icons/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="icons/webclip.png" rel="apple-touch-icon">
+</head>
+
+<body>
+    <div class="logo-wrapper"><img src="images/logo.svg" alt="" class="nowness-logo"></div>
+    <div class="apply-section">
+        <div class="form-container">
+            <h1 class="heading">报名表格</h1>
+            <div class="w-form">
+                <form id="email-form" name="email-form" data-name="Email Form" class="form">
+                    <div class="form-fields-wrapper">
+                        <div class="third">
+                            <input type="text" class="text-field w-input" autofocus="true" maxlength="256" name="nameOfTheVideo" data-name="nameOfTheVideo" placeholder="影片名称" id="nameOfTheVideo" required="">
+                            <div class="radiobutton-group">
+                                <div>影片字幕（如语言为方言需提供字幕）</div>
+                                <div class="radiobuttons-wrapper">
+                                    <label class="radio-button-field w-radio">
+                                        <input type="radio" data-name="videoSubtitle" id="中文" value="中文" name="videoSubtitle" required="" class="radio-button w-radio-input"><span for="中文" class="w-form-label">中文</span></label>
+                                    <label class="radio-button-field w-radio">
+                                        <input type="radio" data-name="videoSubtitle" id="英文" value="英文" name="videoSubtitle" required="" class="radio-button w-radio-input"><span for="英文" class="w-form-label">英文</span></label>
+                                    <label class="radio-button-field w-radio">
+                                        <input type="radio" data-name="videoSubtitle" id="中英" value="中英" name="videoSubtitle" required="" class="radio-button w-radio-input"><span for="中英" class="w-form-label">中英</span></label>
+                                    <label class="radio-button-field w-radio">
+                                        <input type="radio" data-name="videoSubtitle" id="无" value="无" name="videoSubtitle" required="" class="radio-button w-radio-input"><span for="无" class="w-form-label">无</span></label>
+                                </div>
+                            </div>
+                            <input type="text" class="text-field w-input" maxlength="256" name="durationOfTheVideo" data-name="durationOfTheVideo" placeholder="影片时长/ 分钟（不长于20分钟）" id="durationOfTheVideo" required="">
+                            <input type="text" class="text-field w-input" maxlength="256" name="language" data-name="language" placeholder="影片语言（普通话或具体方言）" id="language" required="">
+                            <input type="text" class="text-field w-input" maxlength="256" name="typeOfTheVideo" data-name="typeOfTheVideo" placeholder="影片类型（动画／音影带／虚构／其他请充）" id="typeOfTheVideo" required="">
+                            <input type="text" class="text-field w-input" maxlength="256" name="dateOfFinish" data-name="dateOfFinish" placeholder="影片完成日期（须为2017年9月10日后创作）" id="dateOfFinish" required="">
+                            <input type="text" class="text-field w-input" maxlength="256" name="awardInfo" data-name="awardInfo" placeholder="影片放映／获奖情况（如没有则填无）" id="awardInfo" required="">
+                            <input type="text" class="text-field w-input" maxlength="256" name="filmRegion" data-name="filmRegion" placeholder="影片国家/地区" id="filmRegion" required="">
+                            <textarea placeholder="影片简介（500字以内）" maxlength="5000" id="introductionOfTheFilm" name="introductionOfTheFilm" data-name="introductionOfTheFilm" required="" class="text-area w-input"></textarea>
+                        </div>
+                        <div class="third">
+                            <input type="text" class="text-field w-input" maxlength="256" name="nameOfTheDirector" data-name="nameOfTheDirector" placeholder="演姓名" id="nameOfTheDirector" required="">
+                            <input type="text" class="text-field w-input" maxlength="256" name="genderOfDirector" data-name="genderOfDirector" placeholder="导演性别（男／女／其他）" id="genderOfDirector" required="">
+                            <input type="text" class="text-field w-input" maxlength="256" name="nationalityOfDirector" data-name="nationalityOfDirector" placeholder="演国籍（必人，即海内外具有中国血统的人）" id="nationalityOfDirector" required="">
+                            <textarea placeholder="演简介（100字以内）" maxlength="5000" id="introductionOfDirector" name="introductionOfDirector" data-name="introductionOfDirector" required="" class="text-area w-input"></textarea>
+                        </div>
+                        <div class="third">
+                            <input type="text" class="text-field w-input" maxlength="256" name="submitterName" data-name="submitterName" placeholder="提交人姓名" id="submitterName" required="">
+                            <input type="email" class="text-field w-input" maxlength="256" name="submitterEmail" data-name="submitterEmail" placeholder="提交人邮箱" id="submitterEmail" required="">
+                            <input type="tel" class="text-field w-input" maxlength="256" name="phoneNumber" data-name="phoneNumber" placeholder="提交人联系电话" id="phoneNumber" required="">
+                            <input type="text" class="text-field w-input" maxlength="256" name="urlOfCloudStorage" data-name="urlOfCloudStorage" placeholder="网盘地址（影片小于500MB、三张剧照及一张海）" id="urlOfCloudStorage" required="">
+                            <input type="text" class="text-field w-input" maxlength="256" name="password" data-name="password" placeholder="网盘密码" id="password">
+                        </div>
+                    </div>
+                    <div class="form-buttons-wrapper"><a href="index.html" class="back">背部</a>
+                        <input type="submit" value="提交" data-wait="Please wait..." class="button w-button">
+                    </div>
+                </form>
+                <div class="w-form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="w-form-fail">
+                    <div>Oops! Something went wrong while submitting the form.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+    <script>
+      const form = $('form')
+
+      form.on('submit', (function(e){
+        //stop the form from submitting
+        e.preventDefault();
+        //submit the form via ajax
+        const data = form.serialize()
+
+        $.ajax({
+          // Staging:
+          // url: 'https://nowness-api-dev-eu.herokuapp.com:443/api/cn-contest',
+          // Production:
+          url: 'https://api.nowness.com:443/api/cn-contest',
+          method: "POST",
+          data: data,
+          dataType: "json",
+          headers: {
+            'X-Nowness-Language': 'zh-cn'
+          },
+          success: function(data){
+            if(data.subscribed){
+              //successful submission - hide the form and show the success message
+              parent = $(form.parent());
+              parent.children('form').css('display','none');
+              parent.children('.w-form-done').css('display','block');
+              parent.find('.w-form-fail').css('display','none');
+            } else {
+              //failed submission - log the output to the console and show the failure message
+              parent.find('.w-form-fail').css('display','block');
+            }
+          },
+          error: function(){
+            //failed submission - show the failure message
+            parent.find('.w-form-fail').css('display','block');
+          }
+        });
+      }))
+    </script>
+</body>
+
+</html>
