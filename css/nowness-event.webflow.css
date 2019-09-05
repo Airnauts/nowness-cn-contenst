@@ -92,6 +92,11 @@ body {
   line-height: 1.8em;
 }
 
+.tab-pane em, .tab-pane a {
+  color: #c8a170;
+  font-style: normal;
+}
+
 .tabs {
   margin-top: 60px;
 }
@@ -117,8 +122,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 30%;
-  min-width: 200px;
+  width: 200px;
   margin-top: 150px;
   margin-left: 10%;
   -webkit-box-orient: vertical;
