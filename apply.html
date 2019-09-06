@@ -54,25 +54,30 @@
                             <textarea placeholder="影片简介（500字以内）" maxlength="5000" id="introductionOfTheFilm" name="introductionOfTheFilm" data-name="introductionOfTheFilm" required="" class="text-area w-input"></textarea>
                         </div>
                         <div class="third">
-                            <input type="text" class="text-field w-input" maxlength="256" name="nameOfTheDirector" data-name="nameOfTheDirector" placeholder="演姓名" id="nameOfTheDirector" required="">
+                            <input type="text" class="text-field w-input" maxlength="256" name="nameOfTheDirector" data-name="nameOfTheDirector" placeholder="导演姓名" id="nameOfTheDirector" required="">
                             <input type="text" class="text-field w-input" maxlength="256" name="genderOfDirector" data-name="genderOfDirector" placeholder="导演性别（男／女／其他）" id="genderOfDirector" required="">
-                            <input type="text" class="text-field w-input" maxlength="256" name="nationalityOfDirector" data-name="nationalityOfDirector" placeholder="演国籍（必人，即海内外具有中国血统的人）" id="nationalityOfDirector" required="">
-                            <textarea placeholder="演简介（100字以内）" maxlength="5000" id="introductionOfDirector" name="introductionOfDirector" data-name="introductionOfDirector" required="" class="text-area w-input"></textarea>
+                            <input type="text" class="text-field w-input" maxlength="256" name="nationalityOfDirector" data-name="nationalityOfDirector" placeholder="导演国籍" id="nationalityOfDirector" required="">
+                            <textarea placeholder="导演简介" maxlength="5000" id="introductionOfDirector" name="introductionOfDirector" data-name="introductionOfDirector" required="" class="text-area w-input"></textarea>
                         </div>
                         <div class="third">
                             <input type="text" class="text-field w-input" maxlength="256" name="submitterName" data-name="submitterName" placeholder="提交人姓名" id="submitterName" required="">
                             <input type="email" class="text-field w-input" maxlength="256" name="submitterEmail" data-name="submitterEmail" placeholder="提交人邮箱" id="submitterEmail" required="">
                             <input type="tel" class="text-field w-input" maxlength="256" name="phoneNumber" data-name="phoneNumber" placeholder="提交人联系电话" id="phoneNumber" required="">
-                            <input type="text" class="text-field w-input" maxlength="256" name="urlOfCloudStorage" data-name="urlOfCloudStorage" placeholder="网盘地址（影片小于500MB、三张剧照及一张海）" id="urlOfCloudStorage" required="">
+                            <span class="form-label">网盘地址（网盘内包括影片、三张剧照以及一张海报，影片文件不超过500MB</span>
+                            <input type="text" class="text-field w-input" maxlength="256" name="urlOfCloudStorage" data-name="urlOfCloudStorage" id="urlOfCloudStorage" required="">
                             <input type="text" class="text-field w-input" maxlength="256" name="password" data-name="password" placeholder="网盘密码" id="password">
                         </div>
                     </div>
-                    <div class="form-buttons-wrapper"><a href="index.html" class="back">背部</a>
+                    <div class="form-buttons-wrapper"><a href="index.html" class="back">返回</a>
                         <input type="submit" value="提交" data-wait="Please wait..." class="button w-button">
                     </div>
                 </form>
                 <div class="w-form-done">
-                    <div>Thank you! Your submission has been received!</div>
+                    <div class="w-form-done__text">
+                        谢谢您的报名！<br/><br/>
+                        如有任何问题请发送邮件至 <a href="nowness.admin@modernmedia.com.cn">nowness.admin@modernmedia.com.cn</a><br/><br/>
+                        并在邮件题目写上"NOWNESS 中国天才计划投递"
+                    </div>
                 </div>
                 <div class="w-form-fail">
                     <div>Oops! Something went wrong while submitting the form.</div>

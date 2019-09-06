@@ -311,6 +311,13 @@ input[type="reset"] {
   text-align: center;
   background-color: #dddddd;
 }
+.w-form-done__text {
+  text-align: center;
+}
+.w-form-done__text a {
+  text-decoration: none;
+  color: #333;
+}
 .w-form-fail {
   display: none;
   margin-top: 10px;
@@ -1765,6 +1772,9 @@ textarea.w-select {
   position: relative;
   display: none;
 }
+.tab-pane__number-list li {
+  margin-bottom: 20px;
+}
 .w--tab-active {
   display: block;
 }
@@ -1796,4 +1806,11 @@ textarea.w-select {
 }
 .w-condition-invisible {
   display: none !important;
+}
+
+.form-label {
+  display: block;
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 10px;
 }

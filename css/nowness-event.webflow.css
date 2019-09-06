@@ -1,5 +1,5 @@
 body {
-  font-family: Average, sans-serif;
+  font-family: 'Futura', sans-serif;
   color: #333;
   font-size: 16px;
   line-height: 1.4em;
@@ -422,8 +422,8 @@ body {
 }
 
 @font-face {
-  font-family: 'Average';
-  src: url('../fonts/Average-Regular.eot') format('embedded-opentype'), url('../fonts/Average-Regular.woff') format('woff'), url('../fonts/Average-Regular.ttf') format('truetype'), url('../fonts/Average-Regular.otf') format('opentype');
-  font-weight: 400;
+  font-family: 'Futura';
+  src: url('../fonts/FuturaPT-Light.woff') format('woff');
+  font-weight: 200;
   font-style: normal;
 }
