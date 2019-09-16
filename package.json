@@ -1,0 +1,31 @@
+{
+  "name": "sexed-sliders",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-file-include": "^2.0.1",
+    "gulp-footer": "^2.0.1",
+    "gulp-header": "^2.0.5",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-import": "^1.0.0",
+    "gulp-sequence": "^1.0.0",
+    "gulp-sync": "^0.1.4"
+  },
+  "dependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-nunjucks-render": "^2.2.2"
+  }
+}

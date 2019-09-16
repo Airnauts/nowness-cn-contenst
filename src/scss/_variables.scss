@@ -1,0 +1,13 @@
+$color-black: #000;
+$color-gold: #c9a16e;
+
+$bp_phone: 768px;
+$bp_tablet: 991px;
+
+@mixin phone {
+  @media (max-width: $bp_phone) { @content; }
+}
+
+@mixin tablet {
+  @media (max-width: $bp_tablet) { @content; }
+}
